@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    height: 245vh;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #0b0d1c;
+    /*isplay: grid;
+    grid-template-columns: 0.25fr auto;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image_prin {
+    height: 13rem;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.nav_ul_sec {
+    display: inline-block;
+    width: 15%;
+    text-decoration: none;
+    position: relative;
+    font-size: 2rem;
+}*/
+
+a {
+    text-decoration: none;
+    color: rgb(237, 237, 225);
+    font-size: 2rem;
+    font-weight: bold;
+    margin:2rem;
+}
+
+a:hover {
+    color:rgb(132, 11, 11);
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.menu {
+    /*display: grid;
+    grid-template-rows: 0.25fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    padding: 50px;
+    /*background-color: #e6e61e;*/
+    background: rgb(161,175,33);
+    background: linear-gradient(0deg, #a1af21 0%, rgba(235,247,12,1) 100%);
+    flex-wrap: wrap;
+}
+
+.titulo {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.titulo2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.titulo3 {
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.bus-neu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bus-neu_img {
+    width: 45rem;
+}
+
+.bus-neu_img_ref {
+    font-size: 2rem;
+    list-style: none;
+    margin: 3rem;
+}
+
+.servicios {
+    padding: 2%;
+}
+
+.titulo_img {
+    /*height: 30%;
+    padding: 10%;*/                            
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*.titulo_img div{
+    width: 195px;
+    height: 100px;
+}*/
+
+.titulo_img_p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 9rem;    /*Height footer*/ 
+    background:black;
+    padding: 10px;
+}
+
+.titulo_h3 {
+    /*margin: 10px;*/
+    color: white;
+    font-size: 1.5rem;
+}
+
+.icon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+.icon_a {
+    text-decoration: none;
+    color: rgb(237, 237, 225);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.icon_a_image {
+    width: 4rem;
+}
+
+.data {
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+}
+
+.titulo_h3_p {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.copy {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+}
+
+.copy_image {
+    width: 2rem;
+}
+
+.copy_image_h3 {
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+/*nosotros*/
+
+/*.image_prin{
+    height: 10rem;
+}*/
+
+.menu2 {
+    padding: 50px;
+    /*background-color: rgb(230 230 30);*/
+    background: rgb(161,175,33);
+    background: linear-gradient(0deg, rgba(161,175,33,1) 0%, rgba(235,247,12,1) 100%);
+}
+
+.seccion1 {
+    height: 73rem;
+    padding-top: 5rem;
+}
+
+.titulo4 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo4_pn1 {
+    font-size: 2rem;
+    margin: 4.5rem;
+}
+
+.titulo4_pn1_img {
+    height: 40%;
+    width: 85%;
+    margin-left: 6rem;
+}
+
+.titulo4_pn2 {
+    font-size: 2rem;
+    margin: 4rem;
+}
+
+.titulo4_pn2_map {
+    height: 35rem;
+    width: 100%;
+}
+
+/*consejos*/
+
+.recomendaciones {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.recomendaciones_img {
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+}
+
+.recomendaciones_img_art {
+    font-size: 1.5rem;
+    margin: 1.2rem;
+}
+
+/*.recomendaciones2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}*/
+
+/* seccion neumaticos */
+
+.banner {
+    height: 27rem;
+    width: 80%;
+    padding: 3rem;
+}
+
+.banner_neu {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.banner_neu_img {
+    height: 19rem;
+}
+
+.banner_neu_img_p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* medias */
+
+@media (max-width:320px) {
+
+    .container {
+        row-gap: 0;
+        padding: 0;
+        margin: 0;
+        height: 242vh;
+        width: 66rem;
+    }
+
+    .image_prin{
+        height: 10rem;
+    }
+
+    /*.nav_ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 2vh;
+        position: relative;
+        top: 5%;
+    }*/
+
+    .titulo {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .menu2 {
+        padding: 0;
+        font-size: 2rem;
+        height: 122rem;
+    }
+
+    .seccion1 {
+        height: 65rem;
+        padding-top: 3rem;
+    }
+
+    .titulo2 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .titulo4_pn1 {
+        font-size: 2rem;
+        margin: 2rem;
+    }
+
+    .titulo4_pn1_img {
+        height: 35%;
+        width: 85%;
+        margin-left: 3rem;
+    }
+
+    .titulo4_pn2 {
+        font-size: 2rem;
+        margin: 6rem;
+    }
+
+    .titulo4_pn2_map {
+        margin-left: 1.5rem;
+        height: 25rem;
+        width: 95%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .data {
+    position: 0;
+    bottom: 0;
+    left: 0;
+    }
+
+    .copy {
+        width: 40%;
+    }
+
+    .copy_image {
+        top: 3.2rem;
+    }
+
+    .bus-neu_img_ref {   /*media de inicio*/
+        left: 32rem;
+        bottom: 13rem;
+    }
+
+    .recomendaciones_img_art_title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 0px;
+    }
+
+    .titulo_h3 {
+        margin-left: 0px;
+    }
+
+    .recomendaciones_img {     /*seccion consejos*/
+        height: 10rem;
+        width: 8rem;
+        margin: 1rem;
+    }
+
+    .recomendaciones_img_art {
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+
+    .image_prin {
+        height: 10rem;
+    }
+    .titulo {
+        display: flex;
+        text-align: center;
+    }
+
+    .titulo_h3 {
+        margin-left: 2rem;
+    }
+
+    .icon {
+        width: 26%;
+    }
+
+    .data {
+        width: 39%;
+    }
+
+    .copy {
+        width: 19%;
+    }
+}
+
+
