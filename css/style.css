@@ -309,6 +309,67 @@ span {
     font-size: 2.5rem;
 }
 
+/*seccion contacto*/
+
+.menu3 {
+    background: linear-gradient(0deg, rgba(161,175,33,1) 0%, rgba(235,247,12,1) 100%);
+}
+
+.seccion5 {
+    height: 30rem;
+    padding: 8rem;
+}
+
+.titulo3 {
+    font-size: 3rem;
+    display: flex;
+    justify-content:flex-start;
+    margin: 3rem;
+}
+
+.titulo3_horarios {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.formulario {
+    height: 54rem;
+    margin: 10rem;
+}
+
+.form-data {
+    margin: 2rem;
+}
+
+label {
+    margin-bottom:1rem;
+    font-size: 1.5rem;
+}
+
+.form-botton {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1rem;
+    border: 1px solid #ced4da;
+}
+
+.input2 {
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+    border: 1px solid #ced4da;
+}
+
+.form-botton-input {
+    width: 40%;
+    border: 1px solid #ced4da;
+}
+
 /* medias */
 
 @media (max-width:320px) {
@@ -334,7 +395,7 @@ span {
     }*/
 
     .titulo {
-        font-size: 4rem;
+        font-size: 3.5rem;
         margin: 0;
     }
 
@@ -424,8 +485,21 @@ span {
         font-size: 1.5rem;
         margin: 1rem;
     }
-}
 
+    /*seccion contacto*/
+    
+    label {
+        font-size: 2.5rem;
+    }
+    
+    input {
+        height: 5rem;
+    }
+
+    .input2 {
+        height: 14rem;
+    }
+}
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
 
